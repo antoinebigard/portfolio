@@ -2,7 +2,7 @@ import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { SideNavItems, SideNavLink } from 'carbon-components-react/lib/components/UIShell';
 
-import { StyledSideNav } from './styles';
+import { StyledSideNav, StyledTag } from './styles';
 
 const items = [
   { name: 'Me', path: '/' },
@@ -29,6 +29,13 @@ const Sidebar = () => {
             {i.name}
           </SideNavLink>
         ))}
+        <SideNavLink
+            element={StyledTag}
+            type="warm-gray"
+            key={"Download pdf"}
+          >
+            {"Download pdf"}
+          </SideNavLink>
       </SideNavItems>
     </StyledSideNav>
   );

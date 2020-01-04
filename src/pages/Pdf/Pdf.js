@@ -1,6 +1,7 @@
 import React from 'react';
 import Layout from '../../components/Layout';
 import UserHeader from './pdfComponents/UserHeader';
+import Me from './pdfComponents/Me';
 import { SectionTitle } from '../../styles';
 import { StyledPDFViewer } from './styles';
 
@@ -26,9 +27,7 @@ const MyDocument = ({ user }) => (
   <Document>
     <Page size="A4" style={styles.page}>
       <UserHeader user={user} />
-      <View style={styles.section}>
-        <Text>Section #1</Text>
-      </View>
+      <Me user={user} />
       <View style={styles.section}>
         <Text>Section #2</Text>
       </View>

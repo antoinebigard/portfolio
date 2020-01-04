@@ -40,6 +40,10 @@ export const styles = StyleSheet.create({
   },
   headerH1: {
     fontSize: 18,
+    textTransform: 'uppercase',
+  },
+  headerH1Color: {
+    color: '#0f62fe',
   },
   Paragraph: {
     fontSize: 14,

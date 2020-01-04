@@ -32,6 +32,12 @@ export const styles = StyleSheet.create({
   h3: {
     fontSize: 14,
   },
+  hr: {
+    borderTop: 1,
+    height: 1,
+    width: '90%',
+    margin: 5,
+  },
   headerH1: {
     fontSize: 18,
   },

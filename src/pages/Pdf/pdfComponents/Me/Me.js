@@ -14,15 +14,6 @@ const Me = ({ user }) => {
           <Text style={styles.item} key={skill.name}>{skill.name}</Text>
         ))}
       </View>
-      <Text style={styles.h1}>Profiles</Text>
-      <View style={styles.inline}>
-        {user.basics.profiles.map((profile, i) => (
-            <Text style={[styles.inline, styles.h3]} key={profile.network}>
-              {i !== 0 && ' | '}
-                {profile.network}
-            </Text>
-          ))}
-      </View>
     </View>
   );
 };

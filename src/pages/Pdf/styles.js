@@ -32,6 +32,9 @@ export const styles = StyleSheet.create({
   h3: {
     fontSize: 14,
   },
+  h4: {
+    fontSize: 12,
+  },
   hr: {
     borderTop: 1,
     height: 1,
@@ -46,7 +49,7 @@ export const styles = StyleSheet.create({
     color: '#0f62fe',
   },
   Paragraph: {
-    fontSize: 14,
+    fontSize: 12,
   },
   header: {
     margin: 10,
@@ -63,7 +66,14 @@ export const styles = StyleSheet.create({
     flexGrow: 1,
     border: 1,
     padding: 10,
+    paddingLeft: 0,
+    paddingRight: 0,
     verticalAlign: 'baseline'
+  },
+  HeaderParagraph: {
+    fontSize: 10,
+    width: '405pt',
+    marginBottom: 5,
   },
   list: {
     display: "flex",

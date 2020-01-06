@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": false,
   "license": "MIT",
-  "homepage": "http://gethi.github.io/portfolio",
+  "homepage": "https://gethi.github.io/portfolio",
   "dependencies": {
     "@carbon/icons-react": "^10.8.0",
     "@carbon/themes": "^10.9.0",

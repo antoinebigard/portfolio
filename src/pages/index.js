@@ -4,7 +4,7 @@ import Me from './Me';
 import Projects from './Projects';
 import Work from './Work';
 import Education from './Education';
-import Pdf from './Pdf';
+//import Pdf from './Pdf';
 
 const Pages = ({ user }) => {
   return (
@@ -22,9 +22,9 @@ const Pages = ({ user }) => {
         <Route path="/education">
           <Education user={user} />
         </Route>
-        <Route path="/pdf">
+        {/*<Route path="/pdf">
           <Pdf user={user} />
-        </Route>
+        </Route>*/}
       </Switch>
     </Router>
   );

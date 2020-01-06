@@ -29,13 +29,13 @@ const Sidebar = () => {
             {i.name}
           </SideNavLink>
         ))}
-        <SideNavLink
+        {/*<SideNavLink
           element={StyledLink}
           type="warm-gray"
           to={"/pdf"}
         >
           {"Download pdf"}
-        </SideNavLink>
+        </SideNavLink>*/}
       </SideNavItems>
     </StyledSideNav>
   );
